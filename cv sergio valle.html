@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <style>
+        body{
+            background-color: black;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: 0 auto;
+            
+        }
+        #contienehedermain{
+            width: 58%;
+            margin: 0 auto;
+            margin:0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 7px;
+            background-color: white;
+        }
+        #titulo,#contacto{
+            width: 50%;
+            margin-top: 22%;
+            color: gray;
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        header h1{
+            font-size: 24px;
+            color: rgb(180, 20, 20);
+            width: 100%;
+        }
+        header h3{
+            font-size: 20px;
+            color: gray;
+        }
+        #contacto {
+             font-size: 12px;
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: flex-end;
+        }
+        .info{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        aside{
+            width: 40%;
+            background-color: rgb(180, 20, 20);;
+            
+        }
+        .tituloaside,.quality{
+            color: white;
+            text-align: center;
+            
+        }
+        .tituloexp,.titulodetalle,h2{
+            color: gray;
+            font-size: 24px;
+        }
+        .titulopuesto,.tituloedu{
+            color: rgb(180, 20, 20);
+            
+        }
+        hr{
+            width: 80%;
+            background-color:  gray;
+            margin:0 auto;
+            padding: 0;
+        }
+        .pabout,.tituloabout{
+          color: white;
+        }
+        #about{
+            margin: 0 auto;
+            width: 80%;
+        }
+        #imagen{
+            width: 50%;
+            padding: 2%;
+            height: 12%;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-size: cover 
+        
+        }
+        main{
+            width:100% ;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 7px;
+            
+        }
+        main h2 {
+            width: 100%;
+        }
+        .titulopuesto,.tituloedu{
+            font-size: 18px;
+        }
+        .tituloexp,.titulodetalle{
+            font-size: 16px;
+        }
+        .puestos,.experiencia,.instituto,.detalle{
+            width: 50%;
+        }
+        #educacion{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div id="imagen"  style="background-image: url('https://scontent.faep4-1.fna.fbcdn.net/v/t1.0-9/205612_107463026005677_371617_n.jpg?_nc_cat=100&_nc_sid=de6eea&_nc_ohc=EwEJqAWE2z4AX8ryJYN&_nc_ht=scontent.faep4-1.fna&oh=b0d397d5a08e0edec251fd6ce8ce3648&oe=5F4A9984')"></div>
+            <div id="about">
+                <h3 class="tituloabout">SOBRE MI</h3>
+                <p class="pabout">Mi objetivo principal es ser
+                    proactivo en las áreas en las que
+                    me desempeño, adquirir
+                    experiencia en cada una de las
+                    tareas que se me asigne y
+                    esforzarme por mejorar cada día
+                    en la ejecución de ellas.
+                    Soy una persona que le gusta
+                    mucho trabajar en equipo,
+                    aprendo al poder escuchar y
+                    observar a los demás.
+                    Me esfuerzo mucho en poder ser
+                    detallista y que mi trabajo quede
+                    bien hecho, y si no se algo, no
+                    tengo miedo en consultarlo, esa es
+                    la clave para poder crecer dia a dia.
+                </p>
+                
+            </div>
+            <hr>
+            <div id="referencias">
+                <h3 class="tituloaside">REFERENCIAS</h3>
+                <h5 class="tituloaside">RAFAEL SARCEDA (GERENTE)</h5>
+                <p class="tituloaside">Plataforma10 S.A</p>
+                <p class="tituloaside">T: +541151470110</p>
+                <p class="tituloaside">E: rafael.sarceda@plataforma10.com</p>
+                <h5 class="tituloaside">GONZALO CORTESE (SR)</h5>
+                <p class="tituloaside">estudio contable</p>
+                <p class="tituloaside">T: +541136700847</p>
+                <p class="tituloaside">E: gcortese@live.com</p>
+                <hr>
+            </div>
+            <div id="habilidades">
+                <h3 class="tituloaside">HABILIDADES</h3>
+                <p class="tituloaside">RESOLUCIÓN CREATIVA DE
+                    PROBLEMAS</p>
+                <p class="tituloaside">EXPERIENCIA EN PROYECCIÓN DE
+                    PRESUPUESTOS</p>
+                <p class="tituloaside">PROACTVIDAD</p>
+                
+            </div>
+            <hr>
+            <div id="informatica">
+                <h3 class="quality">INFORMATICA</h3>
+                <h4 class="quality">HTML5</h4>
+                <h4 class="quality">CSS</h4>
+                <h4 class="quality">JAVASCRIPT</h4>
+                <h4 class="quality">REACT</h4>
+                <h4 class="quality">NODE.JS</h4>
+                <h4 class="quality">MONGO DB</h4>
+                <h4 class="quality">BOOTSTRAP</h4>
+                
+            </div>
+        </aside>
+        <div id="contienehedermain">
+            <header>
+                <div id="titulo">
+                <h1>SERGIO VALLE</h1>
+                <h3>ANALISTA</h3>
+                </div>
+                <div id="contacto">
+                    <div class="info"><p>🌉   San Martin, Buenos Aires</p></div>
+                    <div class="info"><p>📱  +541122893089</p></div>
+                    <div class="info"><p>📧  sergiovalle7@gmail.com</p></div>
+                </div>
+            </header>
+            <hr>
+            <main>
+                <h2>EXPERIENCIA LABORAL</h2>
+                <div class="puestos">
+                    <h3 class="titulopuesto">FREELANCE</h3>
+                    <p>Buenos Aires</p>
+                    <P>sep. 2019 - Actualidad</P>
+                </div>
+                <div class="experiencia">
+                    <h3 class="tituloexp"><strong> <li>Programador Jr</li></strong></h3>
+                    <p>FreeLancer ganando experiencia en el mundo de la
+                        programación. Tengo experiencia en maquetado,
+                        html5, css y JavaScript, node.js y en proceso de
+                        React.js
+                    </p>
+                </div>
+                <div class="puestos">
+                    <h3 class="titulopuesto">ESTUDIO CONTABLE</h3>
+                    <p>San Martin, Buenos Aires</p>
+                    <P>oct. 2018 - Actualidad</P>
+                </div>
+                <div class="experiencia">
+                    <h3 class="tituloexp"><strong><li>Analista</li></strong></h3>
+                    <p>Asesoramiento de negocios, planificación financiera y
+                        asesoramiento impositivo. Liquidación de impuestos
+                        nacionales y provinciales. Facturación, análisis de ctas
+                        ctes, pago a proveedores. Auditoría contable.
+                    </p>
+                </div>
+                <div class="puestos">
+                    <h3 class="titulopuesto">PLATAFORMA 10 S.A.</h3>
+                    <p>Buenos Aires</p>
+                    <P>sep. 2015 - sep. 2018</p>
+                </div>
+                <div class="experiencia">
+                    <h3 class="tituloexp"><strong><li>Analista</li></strong></h3>
+                    <p>Trabaje codo a codo con el area de IT para desarrollar
+                        partes del sistema contable de la compañia,
+                        trabajando con Mysql y realizando las pruebas en QA.
+                        Analista de cuentas corrientes - Pago a proveedores -
+                        Asistencia liquidación de impuestos - Realización de
+                        informes de auditoría mensuales y semanales- ,
+                        conciliación bancaria, analista contable. Encargado
+                        administra
+                        vo y de planificación financiera sede
+                        Brasil.
+                        Encargado auditoria facturación a las cuentas
+                        corrientes, imputación de cobros, coordinación de
+                        reclamo de deuda.
+                    </p>
+                </div>
+                <div class="puestos">
+                    <h3 class="titulopuesto">ESTUDIO MARRA SANCHEZ</h3>
+                    <p>Buenos Aires</p>
+                    <P>jul. 2013 - sep. 2015</P>
+                </div>
+                <div class="experiencia">
+                    <h3 class="tituloexp"><strong><li>Asistente contable</li></strong></h3>
+                    <p>-Conciliación bancaria y cuentas contables, auditoria,
+                        pago a proveedores.
+                        -Análisis de proyecciones financieras, riesgo
+                        credi
+                        cio.
+                        -Liquidador de impuestos, I.V.A., II.BB, II.BB
+                        CONVENIO MULTILATERAL, SICORE
+                    </p>
+                </div>
+                <hr>
+                <div id="educacion">
+                    <h2>EDUCACIÓN</h2>
+                    <div class="instituto">
+                        <h3 class="tituloedu">IT MASTER ACADEMY</h3>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <h4 class="titulodetalle"><li> Web Full Stack</li></h4>
+                    </div>
+                    <div class="instituto">
+                        <h3 class="tituloedu">WALL STREET INST.</h3>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <h4 class="titulodetalle"><li>ingles,nivel intermedio</li> </h4>
+                    </div>
+                    <div class="instituto">
+                        <h3 class="tituloedu">UBA</h3>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <h4 class="titulodetalle"><li>Contador Publico</li></h4>
+                        <p class="titulodetalle">Actualmente estoy cursando la carrera de contador
+                            publico.</p>
+                    </div>
+                    <div class="instituto">
+                        <h3 class="tituloedu">INSTITUTO DE LA RIVERA</h3>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <h4 class="titulodetalle"><li>Tecnico en comercio exterior y despachante de
+
+                            aduana</li></h4>
+                    </div>
+                    <div class="instituto">
+                        <h3 class="tituloedu">PERITO MORENO</h3>
+                        <p></p>
+                    </div>
+                    <div class="detalle">
+                        <h4 class="titulodetalle"><li>Diploma de secundaria</li></h4>
+                    </div>
+                </div>
+                <hr>
+                <h2>IDIOMAS</h2>
+                <p>ingles</p>
+            </main>
+        </div>
+
+    </div>
+</body>
+</html>
